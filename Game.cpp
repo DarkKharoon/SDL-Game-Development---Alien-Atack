@@ -53,7 +53,7 @@ bool Game::init(const char* title, int xpos, int ypos, int widht, int height, in
 	m_gameWidth = widht;
 	m_gameHeight = height;
 
-	// add some sound effects - TODO move to better place
+	
 	//TheSoundManager::Instance()->load("assets/The Weeknd - Take My Breath.ogg", "weeknd", SOUND_MUSIC);
 	TheSoundManager::Instance()->load("assets/DST_ElectroRock.ogg", "music1", SOUND_MUSIC);
 	TheSoundManager::Instance()->load("assets/boom.wav", "explode", SOUND_SFX);
